@@ -1,0 +1,152 @@
+.main-outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 35px;
+}
+.top-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 95%;
+  padding: 35px;
+}
+.welcome-container-heading {
+  color: #475569;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.welcome-container-para {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+}
+.welcome-container-span {
+  color: #0b69ff;
+}
+.dashboard-container {
+  width: 95%;
+  margin-top: 25px;
+}
+.bottom-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.form-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+.bottom-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+label {
+  color: #7e858e;
+  font-size: 12px;
+  font-weight: 500;
+}
+input {
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid #cbd5e1;
+}
+select {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 12px;
+  padding: 6px;
+  border-color: #cbd5e1;
+}
+.form-add-button {
+  background-color: #0b69ff;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 65px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  width: 55%;
+  padding: 15px;
+  padding-top: 25px;
+}
+.history-list-type {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.list-heading-item {
+  display: flex;
+  border: 1px solid #cbd5e1;
+}
+.common-width-parameter {
+  width: 25%;
+  margin: 0px;
+  padding: 10px;
+  font-size: 12px;
+  color: #334155;
+  font-weight: 500;
+}
+.type {
+  width: 50%;
+  margin: 0px;
+  padding: 10px;
+  font-size: 12px;
+  color: #334155;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .main-outer-container {
+    padding: 15px;
+  }
+  .top-container {
+    width: 100%;
+  }
+  .dashboard-container {
+    width: 90%;
+    margin-top: 10px;
+  }
+  .welcome-container {
+    width: 90%;
+    text-align: center;
+  }
+  .bottom-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .form-container {
+    width: 90%;
+  }
+  .history-container {
+    width: 90%;
+    margin-top: 25px;
+  }
+}
